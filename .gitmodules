@@ -1,0 +1,6 @@
+[submodule "phpsrc/HatenaSyntax"]
+	path = phpsrc/HatenaSyntax
+	url = git@github.com:ngyuki/HatenaSyntax.git
+[submodule "phpsrc/PHPPEG"]
+	path = phpsrc/PHPPEG
+	url = git@github.com:ngyuki/PHPPEG.git
