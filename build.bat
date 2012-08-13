@@ -1,0 +1,6 @@
+@echo off
+
+call "%VS100COMNTOOLS%vsvars32.bat"
+pushd "%~dp0"
+nmake /nologo
+popd
