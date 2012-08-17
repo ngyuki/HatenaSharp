@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HatebaConsole", "HatebaCons
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HatenaForm", "HatenaForm\HatenaForm.csproj", "{AA79E9C7-40F2-4979-8AD5-6C39E96BDC21}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HatenaView", "HatenaView\HatenaView.csproj", "{13CE4EF1-594C-48D3-B070-E6B837947F54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,16 @@ Global
 		{AA79E9C7-40F2-4979-8AD5-6C39E96BDC21}.Release|Mixed Platforms.Build.0 = Release|x86
 		{AA79E9C7-40F2-4979-8AD5-6C39E96BDC21}.Release|x86.ActiveCfg = Release|x86
 		{AA79E9C7-40F2-4979-8AD5-6C39E96BDC21}.Release|x86.Build.0 = Release|x86
+		{13CE4EF1-594C-48D3-B070-E6B837947F54}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{13CE4EF1-594C-48D3-B070-E6B837947F54}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{13CE4EF1-594C-48D3-B070-E6B837947F54}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{13CE4EF1-594C-48D3-B070-E6B837947F54}.Debug|x86.ActiveCfg = Debug|x86
+		{13CE4EF1-594C-48D3-B070-E6B837947F54}.Debug|x86.Build.0 = Debug|x86
+		{13CE4EF1-594C-48D3-B070-E6B837947F54}.Release|Any CPU.ActiveCfg = Release|x86
+		{13CE4EF1-594C-48D3-B070-E6B837947F54}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{13CE4EF1-594C-48D3-B070-E6B837947F54}.Release|Mixed Platforms.Build.0 = Release|x86
+		{13CE4EF1-594C-48D3-B070-E6B837947F54}.Release|x86.ActiveCfg = Release|x86
+		{13CE4EF1-594C-48D3-B070-E6B837947F54}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
