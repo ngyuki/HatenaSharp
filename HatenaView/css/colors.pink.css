@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+/******************************************************************************
+ * colors pink
+ ******************************************************************************/
+
+body {
+	color: #666;
+}
+
+h3, h4 {
+	color: #F57765;
+	border-color: #FDE7E4;
+	background-color: #FEF6F5;
+}
+
+table, th, td {
+	border-color: #F9A89D;
+}
+
+th {
+	color: #F57765;
+	background-color: #FEF6F5;
+}
+
+blockquote {
+	color: #888;
+	background-color: #FEF6F5;
+}
+
+pre {
+	color: #333;
+	border-color: #F9A89D;
+}
+
+a {
+	color: #F57765;
+}
+
+div.footnote {
+    color: #666;
+	border-color: #888;
+}

@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+/******************************************************************************
+ * colors silver
+ ******************************************************************************/
+
+body {
+	color: #666;
+}
+
+h3, h4 {
+	color: #666;
+	border-color: #ddd;
+	background-color: #eee;
+}
+
+table, th, td {
+	border-color: #999;
+}
+
+th {
+	color: #666;
+	background-color: #eee;
+}
+
+blockquote {
+	color: #888;
+	background-color: #eee;
+}
+
+pre {
+	color: #333;
+	border-color: #999;
+}
+
+a {
+	color: #66f;
+}
+
+div.footnote {
+    color: #888;
+	border-color: #999;
+}

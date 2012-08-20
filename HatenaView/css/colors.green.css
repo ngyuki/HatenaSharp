@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+/******************************************************************************
+ * colors green
+ ******************************************************************************/
+
+body {
+	color: #666;
+}
+
+h3, h4 {
+	color: #779834;
+	border-color: #EAF2D9;
+	background-color: #F2F7E7;
+}
+
+table, th, td {
+	border-color: #A5C75D;
+}
+
+th {
+	color: #779834;
+	background-color: #F2F7E7;
+}
+
+blockquote {
+	color: #888;
+	background-color: #F2F7E7;
+}
+
+pre {
+	color: #333;
+	border-color: #6F8D30;
+}
+
+a {
+	color: #779834;
+}
+
+div.footnote {
+    color: #666;
+	border-color: #888;
+}

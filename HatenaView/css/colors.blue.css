@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+/******************************************************************************
+ * colors blue
+ ******************************************************************************/
+
+body {
+	color: #666;
+}
+
+h3, h4 {
+	color: #478E94;
+	border-color: #EAF2D9;
+	background-color: #E6F2F2;
+}
+
+table, th, td {
+	border-color: #9ECED2;
+}
+
+th {
+	color: #478E94;
+	background-color: #F1F7F5;
+}
+
+blockquote {
+	color: #888;
+	background-color: #F1F7F5;
+}
+
+pre {
+	color: #333;
+	border-color: #51A4AA;
+}
+
+a {
+	color: #478E94;
+}
+
+div.footnote {
+    color: #666;
+	border-color: #888;
+}

@@ -1,71 +1,131 @@
 @charset "utf-8";
 
 * {
-	padding: 0;
 	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 80%;
+	line-height: 1.6;
+	word-wrap: 	break-word;
+	padding: 20px 30px;
+	color: #666;
+}
+
+h3 {
+	font-size: 130%;
+	font-weight: bold;
+	margin: 0.5em 0;
+	padding: 5px 10px;
+	border-width: 3px 0;
+	border-style: solid;
+}
+
+h3:before {
+	content:"■ ";
+}
+
+h4 {
+	font-size: 100%;
+	font-weight: bold;
+	margin: 0.5em 0;
+	padding: 5px 10px;
+	border-width: 3px 0;
+	border-style: solid;
+}
+
+h3, h4 {
+	color: #666;
+	background-color: #eee;
+	border-color: #ddd;
+}
+
+h5 {
+	font-size: 100%;
+	margin: 0.5em 0;
+}
+
+ul {
+	margin-left: 35px;
+}
+
+dl {
+	margin-left: 10px;
+}
+
+dt {
+	font-weight: bold;
+	margin-left: 10px;
+	padding: 3px;
+}
+
+dd {
+	margin-bottom: 1em;
+	margin-left: 30px;
+}
+
+table, th, td {
+	border: 1px solid;
+	border-color: #999;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 1em 2em;
+}
+
+th, td {
+	font-size: 100%;
+	text-align: left;
+	padding: 5px;
+}
+
+th {
+	color: #666;
+	background-color: #eee;
+}
+
+blockquote {
+	margin: 10px;
+	padding: 10px;
+	overflow: auto;
+	color: #888;
+	background-color: #eee;
+}
+
+pre {
+	font-size: 90%;
+	line-height: 1.4;
+	margin: 10px;
+	padding: 6px;
+	border: 1px solid;
+	white-space: pre;
+	word-wrap: normal;
+	overflow: auto;
+	color: #333;
+	border-color: #999;
+}
+
+a {
+	color: #66f;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
 }
 
 img {
 	border: 0;
 }
 
-body {
-	padding: 20px 30px;
-	color: #333;
-	font-size: 90%;
-	line-height: 1.6;
-	font-family: "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-}
-
-table {
-	border-collapse: collapse;
-}
-
-th, td {
-	border: 1px solid #333;
-	padding: 2px 4px;
-}
-
-a {
-	color: #00f;
-	text-decoration: none;
-}
-
-a:hover,
-a:focus,
-a:active {
-	text-decoration: underline;
-}
-
-a:active {
-	color: #f00;
-}
-
-h3 {
-	color: #666;
-	font-size: 130%;
-	font-weight: bold;
-	margin: 10px 0px;
-}
-
-pre {
-	color: #444;
-	font-size: 90%;
-	line-height: 1.4;
-	font-family: "ＭＳ ゴシック", "MS Gothic", monospace;
-	
-	border: 1px solid #333;
-	margin: 10px;
-	padding: 5px;
-	
-	max-height: 40em;
-	overflow: auto;
-}
-
-.footnote {
-    margin: 10px 0 0;
-    padding: 10px 0 0;
-	border-top: 1px solid #888;
-	color: #666;
+div.footnote {
 	font-size: 80%;
+	margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid;
+    color: #888;
+	border-color: #999;
 }

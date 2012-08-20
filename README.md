@@ -37,6 +37,8 @@ PHP の [HatenaSyntax](https://github.com/anatoo/HatenaSyntax) を [Phalanger](h
 TODO
 ==============================
 
+- CSS が作りかけなのでデフォルトでもそれなりの見栄えになるように変更する
+
 - CSS は任意のファイルを指定出来るようにする？
 
 - 関連付けを開くは任意のアプリを指定できるようにする
