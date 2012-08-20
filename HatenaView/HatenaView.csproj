@@ -103,12 +103,14 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="css\style.css">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <Content Include="css\colors.blue.css" />
+    <Content Include="css\colors.green.css" />
+    <Content Include="css\colors.pink.css" />
+    <Content Include="css\colors.silver.css" />
     <Content Include="css\style.default.css">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="css\style.sample.css" />
     <Content Include="res\html.html" />
     <Content Include="res\body.html" />
   </ItemGroup>
