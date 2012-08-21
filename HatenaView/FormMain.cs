@@ -280,12 +280,15 @@ namespace HatenaView
 						uiWebBrowser.Document.Body.InnerHtml = _document.GetInnerHtml();
 					}
 				}
-				catch (Exception ex)
+				catch (IOException ex)
 				{
 					// TODO: タイミングによっては書き込みの排他制御と競合することがあるので問答無用で閉じるのはどうか
+					// とりあえず握りつぶすことにします
+				}
+				catch (Exception ex)
+				{
 					_document.Close();
 					ShowException(ex);
-					return;
 				}
 			}
         }
